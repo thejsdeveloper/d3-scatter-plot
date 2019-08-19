@@ -26,7 +26,7 @@ export class LineChart {
         const container = d3.select('#wrapper');
     
         const text = container.append('h3')
-            .text('Maximum Temperature of Singapore from Aug 2018 to Aug 2019')
+            .text('Maximum Temperature of Singapore from AUG 2018 to SEP 2019')
             .style('transform', `translate(0px, 30px)`);
     
         const wrapper = d3.select('#wrapper')
