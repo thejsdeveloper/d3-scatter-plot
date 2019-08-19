@@ -11,7 +11,7 @@ export class LineChart {
     
         let dimensions = {
             width: window.innerWidth * 0.9,
-            height: 600,
+            height: window.innerHeight * 0.6,
             margin: {
                 top: 60,
                 right: 15,
