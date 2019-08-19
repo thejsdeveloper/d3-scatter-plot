@@ -1,7 +1,7 @@
 # Let's Start with Webpack 4 
 ### Webpack configuration introduction
 
-![](https://raw.githubusercontent.com/thejsdeveloper/webpack4-setup/master/src/assets/images/webpack.gif)
+![]()
 
 ## This project provide following functionality: 
  1. Webpack configuration for development and production
@@ -21,7 +21,7 @@
 
 ### Run development server
 
-> Run `npm run dev` for a dev server. Navigate to `http://localhost:8080/`. 
+> Run `npm run dev` for a dev server. Navigate to `http://localhost:8081/`. 
 The app will automatically reload if you change any of the source files.
 
 ### Build
