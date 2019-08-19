@@ -1,5 +1,5 @@
-# D3 Line Chart
-### Learning D3 Repository
+# Learning D3
+### D3 Line Chart
 
 ![](https://github.com/thejsdeveloper/d3-line-chart/blob/master/src/assets/images/line-chart.png)
 
