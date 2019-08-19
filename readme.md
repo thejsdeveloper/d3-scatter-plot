@@ -8,6 +8,13 @@
  1. Webpack configuration for development and production
  2. D3 configuration for generating line chart
 
+##Information of Axis 
+
+###y-axis
+ > y-axis represents temperature in fahrenheit
+
+###x-axis
+> x-axis represents time from Aug 2018 to Sep 2019
 
 ### To clone the repository
 > Run `git clone https://github.com/thejsdeveloper/d3-line-chart.git`
