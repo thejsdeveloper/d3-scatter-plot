@@ -1,27 +1,26 @@
-# Let's Start with Webpack 4 
-### Webpack configuration introduction
+# D3 Line Chart
+### Learning D3 Repository
 
-![]()
+![](https://github.com/thejsdeveloper/d3-line-chart/blob/master/src/assets/images/line-chart.png)
 
-## This project provide following functionality: 
+## Repository includes 
+
  1. Webpack configuration for development and production
- 2. Transpile .ts and ES6+ to ES5
- 3. Convert SCSS to CSS
- 4. Managing static resources
- 5. Use of different plugins in Webpack
+ 2. D3 configuration for generating line chart
+
 
 ### To clone the repository
-> Run `git clone https://github.com/thejsdeveloper/webpack4-setup.git`
+> Run `git clone https://github.com/thejsdeveloper/d3-line-chart.git`
 
 ### Change directory
-> cd `webpack4-setup`
+> cd `wd3-line-chart`
 
 ### Install dependencies
 > npm install 
 
 ### Run development server
 
-> Run `npm run dev` for a dev server. Navigate to `http://localhost:8081/`. 
+> Run `npm start` for a dev server. Navigate to `http://localhost:8081/`. 
 The app will automatically reload if you change any of the source files.
 
 ### Build
