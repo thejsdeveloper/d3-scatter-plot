@@ -1,30 +1,30 @@
 # Learning D3
-### D3 Line Chart
+### D3 Scatter Plot
 
-![](https://github.com/thejsdeveloper/d3-line-chart/blob/master/src/assets/images/line-chart.png)
+![](https://github.com/thejsdeveloper/d3-line-chart/blob/master/src/assets/images/d3-scatter-plot.png)
 
 ### Live Demo
 
-> https://thejsdeveloper-d3-line-chart.netlify.com/
+> https://thejsdeveloper-d3-scatter-plot.netlify.com/
 
 ## Repository includes 
 
  1. Webpack configuration for development and production
- 2. D3 configuration for generating line chart
+ 2. D3 configuration for generating scatter plot
 
 ## Information of Axis 
 
 ### y-axis
- > y-axis represents temperature in fahrenheit
+ > y-axis represents relative humidity
 
 ### x-axis
-> x-axis represents time from Aug 2018 to Sep 2019
+> x-axis represents dew point over period of Aug 2018 to Sep 2019
 
 ### To clone the repository
-> Run `git clone https://github.com/thejsdeveloper/d3-line-chart.git`
+> Run `git clone https://github.com/thejsdeveloper/d3-scatter-plot.git `
 
 ### Change directory
-> cd `wd3-line-chart`
+> cd `d3-scatter-plot`
 
 ### Install dependencies
 > npm install 
