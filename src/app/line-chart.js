@@ -8,7 +8,8 @@ export class LineChart {
         const yAccessor = d => d.temperatureMax
         const dateParser = d3.timeParse('%Y-%m-%d')
         const xAccessor = d => dateParser(d.date)
-    
+        const xAxisTicks  = window.innerWidth < 560 ? 5 : 12;
+        const strokeWidth  = window.innerWidth < 560 ? 1 : 2;
         let dimensions = {
             width: window.innerWidth * 0.9,
             height: window.innerHeight * 0.6,
@@ -55,11 +56,12 @@ export class LineChart {
             .attr('d', lineGenerator(dataset))
             .attr('fill', 'none')
             .attr('stroke', '#F54780')
-            .attr('stroke-width', 2);
+            .attr('stroke-width', strokeWidth);
     
     
         const xAxisGenerator = d3.axisBottom()
-            .scale(xScale);
+            .scale(xScale)
+            .ticks(xAxisTicks);
     
         const xAxis = bounds.append('g')
             .call(xAxisGenerator)
