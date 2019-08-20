@@ -103,7 +103,7 @@ export class ScatterPlot {
             .attr('x', dimensions.boundedWidth / 2)
             .attr('y', -dimensions.margin.top + 30)
             .attr('fill', 'white')
-            .style('font-size', '1.4em')
+            .style('font-size', '16px')
             .html(`Singapore's Humidity Vs Dew Point`)
             .attr('text-anchor', 'middle');
 
@@ -111,7 +111,7 @@ export class ScatterPlot {
             .attr('x', dimensions.boundedWidth / 2)
             .attr('y', -dimensions.margin.top + 50)
             .attr('fill', 'white')
-            .style('font-size', '1em')
+            .style('font-size', '12px')
             .html(`(Aug 2018 to Sep 2019)`)
             .attr('text-anchor', 'middle');
 
