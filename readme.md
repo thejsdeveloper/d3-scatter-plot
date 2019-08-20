@@ -3,6 +3,10 @@
 
 ![](https://github.com/thejsdeveloper/d3-line-chart/blob/master/src/assets/images/line-chart.png)
 
+### Live Demo
+
+> https://thejsdeveloper-d3-line-chart.netlify.com/
+
 ## Repository includes 
 
  1. Webpack configuration for development and production
