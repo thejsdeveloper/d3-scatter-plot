@@ -1,7 +1,7 @@
 # Learning D3
 ### D3 Scatter Plot
 
-![](https://github.com/thejsdeveloper/d3-line-chart/blob/master/src/assets/images/d3-scatter-plot.png)
+![](https://github.com/thejsdeveloper/d3-scatter-plot/blob/master/src/assets/images/scatter-plot.png)
 
 ### Live Demo
 

@@ -99,14 +99,21 @@ export class ScatterPlot {
             .attr('text-anchor', 'middle');
 
 
-            const title = bounds.append('text')
+        const title = bounds.append('text')
             .attr('x', dimensions.boundedWidth / 2)
-            .attr('y', -dimensions.margin.top + 30 )
+            .attr('y', -dimensions.margin.top + 30)
             .attr('fill', 'white')
             .style('font-size', '1.4em')
-            .html(`Singpore's Humidity Vs Dew Point from Aug 2018 to Sep 2019`)
+            .html(`Singapore's Humidity Vs Dew Point`)
             .attr('text-anchor', 'middle');
 
+        const subTitle = bounds.append('text')
+            .attr('x', dimensions.boundedWidth / 2)
+            .attr('y', -dimensions.margin.top + 50)
+            .attr('fill', 'white')
+            .style('font-size', '1em')
+            .html(`(Aug 2018 to Sep 2019)`)
+            .attr('text-anchor', 'middle');
 
     }
 }
