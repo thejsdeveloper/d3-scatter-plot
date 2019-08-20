@@ -8,9 +8,13 @@ module.exports = {
     entry: './src/index',
     output: {
         path: path.resolve(__dirname, '../dist'),
-        filename: '[name].[chunkhash].js'
+        filename: '[name].[chunkhash].js',
     },
-
+    optimization: {
+        splitChunks: {
+            chunks: 'all',
+        }
+    },
     module: {
         rules: [
             {
@@ -46,18 +50,6 @@ module.exports = {
                         }
                     }
                 ]
-            },
-            {
-                test: /\.json$/,
-                type: 'javascript/auto',
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[name].[ext]'
-                        }
-                    }
-                ]
             }
         ]
     },
@@ -89,6 +81,9 @@ module.exports = {
             filename: 'style.[chunkhash].css'
         }),
         new CopyWebpackPlugin([{
+            from: './data/*.json',
+            to: 'data/[name].json'
+        }, {
             from: './src/assets/images',
             to: 'assets/images'
         }]),
