@@ -1,8 +1,11 @@
 {
-  "name": "webpack-starter",
+  "name": "d3-scatter-plot",
   "version": "1.0.0",
-  "description": "This is a starter for traspiling scss and ES6+ to css and Javascript via webpack 4",
+  "description": "This is D3 learning respository for Scatter Plot",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/thejsdeveloper/d3-scatter-plot.git"
+  },
   "scripts": {
     "build:dev": "cross-env NODE_ENV=development webpack --mode development",
     "build:prod": "cross-env NODE_ENV=production webpack --mode production",
